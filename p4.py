@@ -1,0 +1,5 @@
+words = list()
+words.append('animal')
+words.append('food')
+words.append('city')
+print('Words=',words)

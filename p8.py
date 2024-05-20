@@ -1,14 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Jul 23 15:43:11 2018
+Created on Fri Aug 18 10:53:02 2017
 
 @author: JJayanetti
 """
 
-sum = 0 # Initialize sum
-print('Please enter an integer value:')
-N = int(input())
-
-for i in range(1, N):
-    sum += i
-print('Sum=' + str(sum))
+count = 1 # Initialize counter
+N=100
+while count <= N: # Should we continue?
+    print(count) # Display counter, then
+    count += 1 
