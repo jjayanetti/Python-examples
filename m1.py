@@ -1,12 +1,14 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Apr 30 14:03:06 2020
+Created on Tue Jul 16 11:37:27 2024
 
 @author: JJayanetti
 """
 
-import math
-a = math.sin(math.pi*1.5)
-b=math.sin((math.pi/2))
-print(b)
-l1=PyList(["a","b"])
+D = {'a': 1, 'b': 2, 'c': 3}
+Ks = list(D.keys())
+Ks.sort()
+print(Ks)
+
+for key in Ks:
+    print(key, '=>', D[key])
